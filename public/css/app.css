@@ -1,3 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background: gray;	
+}
+
+.Logo{
+  padding-bottom: 20px !important;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+
+.document{
+    margin:0 auto;
+    height:265px;
+    background-color:#fff;
+    width: 615px;
+    margin-top: 30px;
+    text-align:  center;
+}
+
+.dochead{
+
+    background-color:#689e18;
+    height:45px;
+    font:24px Tahoma, Geneva, sans-serif;
+    color:#FFF;
+    width: 385px;
+    margin-left:-10px;
+}
+
+.dochead span{
+    margin-left: 20px;	
+}
+
+.dhead{
+    line-height:45px;	
+}
+
+.post{
+    color:#656565;
+    font:12px Tahoma, Geneva, sans-serif;
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+.bubble {
+    display: inline-block;
+    background:url(bubble.png) no-repeat bottom right;
+    height:39px;
+    margin-right: 15px;
+}
+
+.doccontrols {
+    padding-top: 5px;
+    margin-top:105px;
+    margin-right:15px;
+    text-align:right;
+    color:#FFF;
+    font:12px Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    line-height: 30px;
+}
+.doccontrols form {
+    display: inline-block;
+}
+
+.dcontent{
+    font:16px Tahoma, Geneva, sans-serif;
+    color:#1f1e1e;
+    margin-top:20px;
+    line-height:23px;
+    margin-left: 15px;
+    
+    letter-spacing:1px;
+}
+
+.dcontent form {
+  display: inline-block;
+}
+
+.Comment{
+    box-sizing: border-box;
+    padding: 10px;
+    margin:0 auto;
+    background-color:#fff;
+    width: 615px;
+    margin-top: 30px; 
+
+}
+
+.Href{
+    margin:20px;
+    color:white;
+    text-decoration: none; 
+    line-height: 30px;
+   }
+   a:hover { 
+    text-decoration: none; 
+   }
+
+.heading{
+    width: 100%;
+}
+
+.center{
+    width: 200px;
+    margin:0 auto;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
