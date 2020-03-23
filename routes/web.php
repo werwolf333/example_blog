@@ -30,7 +30,7 @@ Route::delete('/messages/{messageId}', 'MessageController@delete');
 Route::get('/messages/{messageId}/edit', 'MessageController@edit');
 Route::patch('/messages/{messageId}', 'MessageController@update');
 
-Route::get('/messages/{messageId}', 'MessageController@show');
+Route::get('/messages/{messageId}', 'CommentController@index');
 Route::get('/messages/{messageId}/comments/create', 'CommentController@create'); 
 Route::post('/messages/{messageId}/comments', 'CommentController@store');
 Route::delete('/messages/{messageId}/comments/{commentId}', 'CommentController@delete');
