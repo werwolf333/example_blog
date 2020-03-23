@@ -32,9 +32,20 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
+                    <div  class="d-inline-flex mr-auto">
+                        <ul class="navbar-nav">
+                            @if (Auth::user() && Auth::user()->role_id == 1)
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/users">Users</a>
+                                </li>
+                            @endif
+                        </ul>
+                        @if(Auth::user())
+                            <div class="form-inline navbar-nav mr-auto">
+                                <a href="/messages/create" class="btn btn-success">Create</a>
+                            </div>
+                        @endif
+                    </div>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
