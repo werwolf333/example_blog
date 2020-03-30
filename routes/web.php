@@ -36,3 +36,8 @@ Route::post('/messages/{messageId}/comments', 'CommentController@store');
 Route::delete('/messages/{messageId}/comments/{commentId}', 'CommentController@delete');
 Route::get('/messages/{messageId}/comments/{commentId}/edit', 'CommentController@edit');
 Route::patch('/messages/{messageId}/comments/{commentId}', 'CommentController@update');
+
+Route::get('/users', 'UserController@index');
+Route::delete('/users/{userId}', 'UserController@delete');
+Route::get('/users/{userId}/edit', 'UserController@edit');
+Route::patch('/users/{userId}', 'UserController@update');
